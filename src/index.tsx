@@ -50,11 +50,14 @@ alignItems: "center",
         functions.setVar({ args, pass:{
           keyPath: [`all.newValue`],
           value: [(( ) =>{
-const t01 = tools.getCtData( "all.newValue" )
 
-console.log({t01})
+function teste()
+{const t01 = tools.getCtData( "all.newValue" )
 
-return  t01
+console.log({t01})}
+
+
+return  
 })()
 ]
         }})]
