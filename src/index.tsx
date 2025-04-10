@@ -30,7 +30,7 @@
           pathScreen:"home",
 
           styles:[`{
- marginTop: "25%",
+ paddingTop: "25%",
   flex: 1,
   backgroundColor: 'green'
 
