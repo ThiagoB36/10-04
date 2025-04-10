@@ -52,6 +52,7 @@ alignItems: "center",
           value: [(( ) => {
 const teste1 = $var_all.newValue
 console.log({teste1})
+return
 })( )]
         }})]
  , trigger: 'on press'
