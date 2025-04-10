@@ -50,7 +50,9 @@ alignItems: "center",
         functions.setVar({ args, pass:{
           keyPath: [`all.newValue`],
           value: [(( ) =>{
-return 'clicado01'
+const t01 = $var_all.newValue
+
+return 'clicado01'+ t01
 }
 )( )]
         }})]
