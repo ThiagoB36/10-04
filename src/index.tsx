@@ -51,7 +51,7 @@ alignItems: "center",
           keyPath: [`all.newValue`],
           value: [(( ) => {
 const teste1 = $var_all.newValue
-console.log({teste})
+console.log({teste1})
 })( )]
         }})]
  , trigger: 'on press'
