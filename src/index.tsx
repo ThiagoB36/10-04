@@ -50,7 +50,7 @@ alignItems: "center",
         functions.setVar({ args, pass:{
           keyPath: [`all.newValue`],
           value: [(( ) =>{
-const t01 = tools.getCtData( "all.newValue" )
+const t01 = tools.getCtData( "all.newValue" ) ?? 'clique Und'
 
 return 'clicado01'+ t01
 }
