@@ -49,14 +49,14 @@ alignItems: "center",
 () => console.log({tools}), async (...args) =>
         functions.setVar({ args, pass:{
           keyPath: [`all.newValue`],
-          value: [(( ) =>{
+          value: [( ) =>{
 const t01 = tools.getCtData( "all.newValue" )
 
 console.log({t01})
 
 return  t01
 }
-)( )]
+]
         }})]
  , trigger: 'on press'
 }})],            childrenItems:[(...args:any) => <Elements.Text pass={{
