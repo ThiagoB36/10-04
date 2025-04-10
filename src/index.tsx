@@ -81,7 +81,7 @@
           ],
 
           children: [
-            `teste`
+            `blue`
           ],
 
           args,
