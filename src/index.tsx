@@ -31,7 +31,7 @@
 
           styles:[`{
 flex: 1,
-background-color: 'green', 
+backgroundColor: 'green', 
 justifyContent: 'center',
 alignItems: "center",
 }`],
