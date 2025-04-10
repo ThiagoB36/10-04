@@ -52,9 +52,9 @@ alignItems: "center",
           value: [(( ) =>{
 const t01 = tools.getCtData( "all.newValue" )
 
+console.log({t01})
 
-
-return 'clicado01'+ t01
+return  t01
 }
 )( )]
         }})]
