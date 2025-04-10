@@ -30,11 +30,10 @@
           pathScreen:"home",
 
           styles:[`{
- paddingTop: "25%",
-  flex: 1,
-  backgroundColor: 'green', 
-justifyContent: 'center'
-
+flex: 1,
+backgroundColor: 'green', 
+justifyContent: 'center',
+alignItems: "center",
 }`],
 
           screenElements:[
