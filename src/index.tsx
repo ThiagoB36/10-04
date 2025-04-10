@@ -32,7 +32,8 @@
           styles:[`{
  paddingTop: "25%",
   flex: 1,
-  backgroundColor: 'green'
+  backgroundColor: 'green', 
+justifyContent: 'center'
 
 }`],
 
