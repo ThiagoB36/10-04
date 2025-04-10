@@ -55,7 +55,7 @@ const t01 = tools.getCtData( "all.newValue" )
 console.log({t01})
 
 return  t01
-})
+})()
 ]
         }})]
  , trigger: 'on press'
