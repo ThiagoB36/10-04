@@ -56,7 +56,7 @@ function teste()
 
 console.log({t01})}
 
-
+teste()
 return  
 })()
 ]
