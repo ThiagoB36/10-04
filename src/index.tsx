@@ -65,7 +65,7 @@
           ],
 
           children: [
-            `"teste": $var_all.newValue`
+            `$var_all.newValue`
           ],
 
           args,
